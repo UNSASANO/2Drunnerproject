@@ -75,7 +75,7 @@ TextureImporter:
       213: 3665714587905563107
     second: running dino_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +135,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -149,6 +151,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -676,6 +690,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      running dino_21: -4962342472530365680
+      running dino_9: -8224636595449233276
+      running dino_1: 937243931539536597
+      running dino_20: 2289702850664083597
+      running dino_8: 2288245889496485957
+      running dino_10: 3196337234386104986
+      running dino_5: 4395685084266381827
+      running dino_19: 4445355050753714450
+      running dino_2: 3610690963561853076
+      running dino_7: 8049504927886255382
+      running dino_0: -1686623183829189665
+      running dino_6: 5997697432027471760
+      running dino_12: 7917775084798289388
+      running dino_4: -3167228801541100335
+      running dino_18: -1635195286011078246
+      running dino_14: -445622024466942875
+      running dino_16: -2423033161084435504
+      running dino_15: 1444501696670893626
+      running dino_17: -148162794150685619
+      running dino_11: -8749079742935567404
+      running dino_3: -5798866650566793218
+      running dino_13: -5958374512525179324
+      running dino_23: 3665714587905563107
+      running dino_22: -7835292147596526367
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
