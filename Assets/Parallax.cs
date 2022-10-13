@@ -12,7 +12,7 @@ public class Parallax : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.Find("Player"); //Find the player
+        player = GameObject.Find("player"); //Find the player
         rend = GetComponent<Renderer>(); //Save our starting position
         playerStartPos = player.transform.position.x; //save our starting position
     }
@@ -20,7 +20,8 @@ public class Parallax : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float offset = (player.transform.position.x - playerStartPos) * speed;
+        float offset = (player.transform.position.x
+            - playerStartPos) * speed;
         //^^^^^^^^^^^^^^^^^^^^This line finds out much to offset the texture by.
         //We do this by subtracting our starting X position from our current X position
         //We then multiply the offset by the speed, so that we can have different layers

@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public GameObject groundChecker;
     public LayerMask whatIsGround;
 
-    public float jumpForce = 500f;
+    public float jumpForce = 200f;
 
     float maxSpeed = 5.0f;
     bool isOnGround = false;
