@@ -5,7 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     Animator anim;
+    public AudioClip jump;
+    public AudioClip backgroundmusic;
 
+    public AudioSource sfxPlayer;
+    public AudioSource musicPlayer; 
     public GameObject groundChecker;
     public LayerMask whatIsGround;
 
